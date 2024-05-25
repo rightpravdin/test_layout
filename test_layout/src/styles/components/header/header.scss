@@ -1,0 +1,34 @@
+.header {
+    background-color: $color_1;
+   .container {
+        height: 100px;
+        padding: 0 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        display: flex;
+        width: 150px;
+        height: 70px;
+        background-image: url(../images/youtube.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__nav {
+        display: flex;
+        list-style: none;
+        gap: 2rem;
+    }
+    &__link {
+        padding: 4px 20px;
+        border-radius: 10px;
+        background-color: $color_2;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $color_3;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+}
